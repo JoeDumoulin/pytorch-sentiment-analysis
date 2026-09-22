@@ -6,7 +6,20 @@ This repo contains tutorials covering understanding and implementing sequence cl
 
 ## Getting Started
 
+You need uv to install the correct versions of certain packages (see pyproject.toml).
+
+With uv installed, run:
+
+```
+uv sync
+```
+
+in the top folder of the repo.  This should install dependencies correctly.  This helps resolve issues with old version required to support torchtext which is deprecated.
+
+DEPRECATED - This doesnt work in 2026 and beyond.
+------------------
 Install the required dependencies with: `pip install -r requirements.txt --upgrade`.
+------------------
 
 ## Tutorials
 
